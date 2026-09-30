@@ -37,6 +37,36 @@
                 <input type="password" id="confirm-password" placeholder="Repeat your password..." required>
             </div>
 
+            <div class="hero">
+                <label for="Role">Role</label>
+                <input type="text" id="Role" required>
+            </div>
+
+            <div class="hero">
+                <label for ="skills">skills</label>
+                <input type="text" id="skills" required>
+            </div>
+
+            <div class="hero">
+                <label for="Experience-level">Experience-level</label>
+                 <select name="category" id="Experience-level">
+                    <option value="biginner">biginner</option>
+                    <option value="Intermediate">Intermediate</option>
+                    <option value="Advanced">Advanced</option>
+                  </select>
+            </div>
+
+            <!-- <div class="hero">
+                    <label for="Github-url">Github-url:</label>
+    
+                    <input 
+                         type="url" 
+                         id="category-url" 
+                         name="category_url" 
+                         required
+    >
+            </div> -->
+
             <!-- Register Button -->
             <button type="submit" class="login-btn">Register</button>
 
