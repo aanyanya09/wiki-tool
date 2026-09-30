@@ -79,7 +79,7 @@ body{
 .login-btn {
     width: 100%;
     padding: 12px;
-    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%)
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: #ffffff;
     border: none;
     border-radius: 6px;
@@ -94,31 +94,31 @@ body{
 }
 
 .login-btn:active {
-    transform: scale(0.98); /* Slight click effect */
-}
-/* Container for the registration text */
-.register-link {
-    text-align: center;
-    margin-top: 20px; /* Space between button and text */
+    transform: scale(0.98); 
 }
 
-/* Styles the plain text */
+.register-link {
+    text-align: center;
+    margin-top: 20px; 
+}
+
+
 .register-link p {
     font-size: 14px;
-    color: #555555; /* Soft dark gray */
+    color: #555555; 
     margin: 0;
 }
 
-/* Styles the clickable link */
+
 .register-link a {
-    color: #7c3aed; /* Royal purple to match your gradient theme */
-    text-decoration: none; /* Removes the ugly default underline */
-    font-weight: 600;      /* Makes the link text pop out */
+    color: #7c3aed; 
+    text-decoration: none; 
+    font-weight: 600;    
     transition: color 0.2s ease;
 }
 
-/* Adds the underline back only when hovering over it */
+
 .register-link a:hover {
-    color: #4f46e5; /* Shifts to deep blue on hover */
+    color: #4f46e5; 
     text-decoration: underline;
 }
